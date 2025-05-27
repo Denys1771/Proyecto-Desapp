@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="12dp"
+    android:paddingVertical="8dp"
+    android:layout_margin="8dp"
+    android:background="@color/material_dynamic_neutral90">
+
+    <ImageView
+        android:id="@+id/ivPetImage"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/pet_image_content_description"
+        android:background="@drawable/rounded_image_background"
+        android:clipToOutline="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="16dp" />
+
+    <TextView
+        android:id="@+id/tvPetName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/material_dynamic_neutral_variant10"
+        app:layout_constraintStart_toEndOf="@id/ivPetImage"
+        app:layout_constraintTop_toTopOf="@id/ivPetImage"
+        app:layout_constraintEnd_toStartOf="@id/btnEditPet"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <TextView
+        android:id="@+id/tvPetType"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/material_dynamic_neutral_variant30"
+        app:layout_constraintStart_toEndOf="@id/ivPetImage"
+        app:layout_constraintTop_toBottomOf="@id/tvPetName"
+        app:layout_constraintEnd_toStartOf="@id/btnEditPet"
+        android:layout_marginTop="6dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <TextView
+        android:id="@+id/tvPetAge"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/material_dynamic_neutral_variant30"
+        app:layout_constraintStart_toEndOf="@id/ivPetImage"
+        app:layout_constraintTop_toBottomOf="@id/tvPetType"
+        app:layout_constraintEnd_toStartOf="@id/btnEditPet"
+        app:layout_constraintBottom_toBottomOf="@id/ivPetImage"
+        android:layout_marginTop="4dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <ImageButton
+        android:id="@+id/btnEditPet"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_edit"
+        android:backgroundTint="@color/material_dynamic_primary40"
+        android:contentDescription="@string/pet_edit_content_description"
+        app:layout_constraintEnd_toStartOf="@id/btnDeletePet"
+        app:layout_constraintTop_toTopOf="@id/ivPetImage"
+        app:layout_constraintBottom_toBottomOf="@id/ivPetImage"
+        android:layout_marginEnd="8dp" />
+
+    <ImageButton
+        android:id="@+id/btnDeletePet"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_delete"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:contentDescription="@string/pet_delete_content_description"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/ivPetImage"
+        app:layout_constraintBottom_toBottomOf="@id/ivPetImage" />
+</androidx.constraintlayout.widget.ConstraintLayout>

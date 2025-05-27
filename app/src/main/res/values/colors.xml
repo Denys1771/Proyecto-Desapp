@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!-- Colores aproximados para reemplazar los dinámicos -->
+    <color name="material_dynamic_neutral95">#F5F5F5</color> <!-- Fondo claro -->
+    <color name="material_dynamic_neutral90">#E0E0E0</color> <!-- Fondo más claro -->
+    <color name="material_dynamic_neutral_variant10">#212121</color> <!-- Texto oscuro -->
+    <color name="material_dynamic_neutral_variant30">#616161</color> <!-- Tono intermedio -->
+    <color name="material_dynamic_primary40">#3F51B5</color> <!-- Color primario (azul) -->
+    <color name="material_dynamic_neutral80">#B0BEC5</color>
+</resources>

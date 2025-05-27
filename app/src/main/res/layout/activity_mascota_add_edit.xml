@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@color/material_dynamic_neutral95"
+    tools:context=".ui.guerrero.mascota.MascotaAddEditActivity">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pet_add_title"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@color/material_dynamic_neutral_variant10"
+        android:layout_marginBottom="32dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilPetName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:boxCornerRadiusBottomEnd="8dp"
+        app:boxCornerRadiusBottomStart="8dp"
+        app:boxCornerRadiusTopEnd="8dp"
+        app:boxCornerRadiusTopStart="8dp"
+        app:hintTextColor="@color/material_dynamic_neutral_variant30"
+        app:boxStrokeColor="@color/material_dynamic_neutral_variant30"
+        android:hint="@string/pet_name_hint">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etPetName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textColor="@color/material_dynamic_neutral_variant10"
+            android:backgroundTint="@color/material_dynamic_neutral90"
+            android:padding="16dp"
+            android:singleLine="true" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilPetType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:boxCornerRadiusBottomEnd="8dp"
+        app:boxCornerRadiusBottomStart="8dp"
+        app:boxCornerRadiusTopEnd="8dp"
+        app:boxCornerRadiusTopStart="8dp"
+        app:hintTextColor="@color/material_dynamic_neutral_variant30"
+        app:boxStrokeColor="@color/material_dynamic_neutral_variant30"
+        android:hint="@string/pet_type_hint">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etPetType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textColor="@color/material_dynamic_neutral_variant10"
+            android:backgroundTint="@color/material_dynamic_neutral90"
+            android:padding="16dp"
+            android:singleLine="true" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilPetAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:boxCornerRadiusBottomEnd="8dp"
+        app:boxCornerRadiusBottomStart="8dp"
+        app:boxCornerRadiusTopEnd="8dp"
+        app:boxCornerRadiusTopStart="8dp"
+        app:hintTextColor="@color/material_dynamic_neutral_variant30"
+        app:boxStrokeColor="@color/material_dynamic_neutral_variant30"
+        android:hint="@string/pet_age_hint">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etPetAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:textColor="@color/material_dynamic_neutral_variant10"
+            android:backgroundTint="@color/material_dynamic_neutral90"
+            android:padding="16dp"
+            android:singleLine="true" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnSelectImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pet_select_image_button"
+        android:backgroundTint="@color/material_dynamic_primary40"
+        android:textColor="@android:color/white"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        app:cornerRadius="8dp" />
+
+    <Button
+        android:id="@+id/btnSavePet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pet_save_button"
+        android:backgroundTint="@color/material_dynamic_primary40"
+        android:textColor="@android:color/white"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        app:cornerRadius="8dp" />
+</LinearLayout>

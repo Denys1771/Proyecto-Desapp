@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "620535386401",
+    "project_id": "desarrollomoviles-658d4",
+    "storage_bucket": "desarrollomoviles-658d4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:620535386401:android:4bba9febaa6a6b3c092e60",
+        "android_client_info": {
+          "package_name": "com.guerrero.appt2"
+
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeM_eRN5RdhIKuvMxwIIHtpvYloVxcd3M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
