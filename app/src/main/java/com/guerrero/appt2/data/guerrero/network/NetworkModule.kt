@@ -5,7 +5,7 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 object NetworkModule {
-    private const val IMGBB_API_KEY = "edcc783e73991b78a37981eab03a3fda" // Reemplaza con tu clave API
+    private const val IMGBB_API_KEY = "edcc783e73991b78a37981eab03a3fda" // clave API
     private const val BASE_URL = "https://api.imgbb.com/"
 
     fun provideImgBBService(): ImgBBService {

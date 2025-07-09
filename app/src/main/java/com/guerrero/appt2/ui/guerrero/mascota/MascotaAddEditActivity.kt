@@ -18,7 +18,6 @@ import com.google.firebase.firestore.FirebaseFirestore
 import com.guerrero.appt2.data.guerrero.model.Mascota
 import com.guerrero.appt2.R
 import com.guerrero.appt2.data.guerrero.repository.AuthRepository
-
 import com.guerrero.appt2.data.guerrero.repository.MascotaRepository
 import com.guerrero.appt2.databinding.ActivityMascotaAddEditBinding
 import java.io.File

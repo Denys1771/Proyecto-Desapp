@@ -8,7 +8,7 @@
     android:gravity="center"
     android:padding="16dp"
     android:backgroundTint="@color/material_dynamic_neutral95"
-    tools:context=".ui.auth.LoginActivity">
+    tools:context=".ui.guerrero.auth.LoginActivity">
 
     <TextView
         android:layout_width="wrap_content"

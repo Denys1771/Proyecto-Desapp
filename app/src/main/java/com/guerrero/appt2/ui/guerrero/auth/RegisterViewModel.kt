@@ -1,6 +1,5 @@
 package com.guerrero.appt2.ui.guerrero.auth
 
-
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel

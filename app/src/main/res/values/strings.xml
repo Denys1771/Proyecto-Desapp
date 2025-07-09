@@ -1,6 +1,6 @@
 <resources>
     <!-- Nombre de la aplicación -->
-    <string name="app_name">Firebaseapp</string>
+    <string name="app_name">T2</string>
 
     <!-- LoginActivity -->
     <string name="login_title">Bienvenido</string>
